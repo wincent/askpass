@@ -28,6 +28,7 @@
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		09AB6884FE841BABC02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		371C41C413809F6900FEDB43 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		8DD76F7E0486A8DE00D96B5E /* askpass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = askpass; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859E970290921104C91782 /* askpass.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = askpass.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +83,7 @@
 		C6859E96029091FE04C91782 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
+				371C41C413809F6900FEDB43 /* LICENSE.txt */,
 				C6859E970290921104C91782 /* askpass.1 */,
 			);
 			name = Documentation;
@@ -115,7 +117,11 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB924B08733DCA0010E9CD /* Build configuration list for PBXProject "askpass" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* askpass */;
 			projectDirPath = "";
 			projectRoot = "";
