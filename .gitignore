@@ -1,3 +1,5 @@
 askpass.xcodeproj/*.mode1v3
 askpass.xcodeproj/*.pbxuser
+askpass.xcodeproj/xcuserdata/*
+askpass.xcodeproj/project.xcworkspace/xcuserdata/*
 build
