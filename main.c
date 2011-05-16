@@ -42,8 +42,7 @@ int main (int argc, const char * argv[]) {
         CFSTR("Cancel"),
     };
     CFDictionaryRef dictionary = CFDictionaryCreate(NULL, keys, values, sizeof(keys)/sizeof(*keys), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
-    CFUserNotificationRef notification = CFUserNotificationCreate
-        (NULL, 0, flags, &error, dictionary);
+    CFUserNotificationRef notification = CFUserNotificationCreate(NULL, 0, flags, &error, dictionary);
     CFOptionFlags responseFlags;
     SInt32 response = CFUserNotificationReceiveResponse(notification, 0, &responseFlags);
     if (response == 0 && (responseFlags & 0x3) != kCFUserNotificationAlternateResponse)
